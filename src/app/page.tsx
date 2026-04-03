@@ -31,25 +31,15 @@ export default function LandingPage() {
       <NavbarLayoutFloatingOverlay
       navItems={[
         {
-          name: "Home",
-          id: "hero",
-        },
+          name: "Home",          id: "hero"},
         {
-          name: "About",
-          id: "about",
-        },
+          name: "About",          id: "about"},
         {
-          name: "Collection",
-          id: "products",
-        },
+          name: "Collection",          id: "products"},
         {
-          name: "Testimonials",
-          id: "testimonials",
-        },
+          name: "Testimonials",          id: "testimonials"},
         {
-          name: "FAQ",
-          id: "faq",
-        },
+          name: "FAQ",          id: "faq"},
       ]}
       brandName="Lumina Beauty"
     />
@@ -58,82 +48,53 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroSplitKpi
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       title="Unveil Your Natural Radiance"
       description="Discover curated beauty essentials crafted for your unique glow. Clean, conscious, and undeniably luxurious."
       kpis={[
         {
-          value: "100%",
-          label: "Natural Ingredients",
-        },
+          value: "100%",          label: "Natural Ingredients"},
         {
-          value: "24h",
-          label: "Visible Results",
-        },
+          value: "24h",          label: "Visible Results"},
         {
-          value: "50k+",
-          label: "Happy Clients",
-        },
+          value: "50k+",          label: "Happy Clients"},
       ]}
       enableKpiAnimation={true}
       buttons={[
         {
-          text: "Shop Collection",
-          href: "#products",
-        },
+          text: "Shop Collection",          href: "#products"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/copy-space-with-blush-brush-table_23-2148301786.jpg"
       imageAlt="Luxurious skincare products on a warm, neutral surface"
       mediaAnimation="slide-up"
       avatars={[
         {
-          src: "http://img.b2bpic.net/free-photo/sincere-delighted-feminine-blond-girl-with-blue-eyes-nice-happy-smile-gazing-camera-giggling-having-fun-laughing-enjoying-evening-posing-satisfied-cheerful-tender-pose-white-wall_176420-35203.jpg",
-          alt: "User 1",
-        },
+          src: "http://img.b2bpic.net/free-photo/sincere-delighted-feminine-blond-girl-with-blue-eyes-nice-happy-smile-gazing-camera-giggling-having-fun-laughing-enjoying-evening-posing-satisfied-cheerful-tender-pose-white-wall_176420-35203.jpg",          alt: "User 1"},
         {
-          src: "http://img.b2bpic.net/free-photo/portrait-content-media-creator-blogger-sits-her-room-records-video-her-favourite-makeup_1258-254940.jpg",
-          alt: "User 2",
-        },
+          src: "http://img.b2bpic.net/free-photo/portrait-content-media-creator-blogger-sits-her-room-records-video-her-favourite-makeup_1258-254940.jpg",          alt: "User 2"},
         {
-          src: "http://img.b2bpic.net/free-photo/front-view-woman-holding-paint-brushes_23-2148276443.jpg",
-          alt: "User 3",
-        },
+          src: "http://img.b2bpic.net/free-photo/front-view-woman-holding-paint-brushes_23-2148276443.jpg",          alt: "User 3"},
         {
-          src: "testi-4",
-          alt: "User 4",
-        },
+          src: "http://img.b2bpic.net/free-photo/abstract-textured-background_23-2148419612.jpg",          alt: "User 4"},
         {
-          src: "http://img.b2bpic.net/free-photo/indoor-shot-happy-smiling-woman-keeps-hands-together_273609-44728.jpg",
-          alt: "User 5",
-        },
+          src: "http://img.b2bpic.net/free-photo/indoor-shot-happy-smiling-woman-keeps-hands-together_273609-44728.jpg",          alt: "User 5"},
       ]}
       avatarText="Trusted by 50,000+ beauty lovers worldwide"
       marqueeItems={[
         {
-          type: "text-icon",
-          text: "Cruelty-Free",
-          icon: Leaf,
+          type: "text-icon",          text: "Cruelty-Free",          icon: Leaf,
         },
         {
-          type: "text-icon",
-          text: "Vegan Certified",
-          icon: Leaf,
+          type: "text-icon",          text: "Vegan Certified",          icon: Leaf,
         },
         {
-          type: "text-icon",
-          text: "Eco-Friendly",
-          icon: Globe,
+          type: "text-icon",          text: "Eco-Friendly",          icon: Globe,
         },
         {
-          type: "text-icon",
-          text: "Dermatologist Tested",
-          icon: ShieldCheck,
+          type: "text-icon",          text: "Dermatologist Tested",          icon: ShieldCheck,
         },
         {
-          type: "text-icon",
-          text: "Pure Ingredients",
-          icon: Sparkles,
+          type: "text-icon",          text: "Pure Ingredients",          icon: Sparkles,
         },
       ]}
     />
@@ -146,17 +107,11 @@ export default function LandingPage() {
       description="We believe in transparency, efficacy, and the power of botanicals. Our mission is to simplify your routine without sacrificing the luxury you deserve."
       metrics={[
         {
-          value: "100%",
-          title: "Vegan Ingredients",
-        },
+          value: "100%",          title: "Vegan Ingredients"},
         {
-          value: "0",
-          title: "Cruelty Free",
-        },
+          value: "0",          title: "Cruelty Free"},
         {
-          value: "95%",
-          title: "Sustainable Packaging",
-        },
+          value: "95%",          title: "Sustainable Packaging"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/smile-woman-with-cream-face-look-camera_197531-32898.jpg"
       imageAlt="A refined aesthetic shot of a beauty ritual"
@@ -173,41 +128,17 @@ export default function LandingPage() {
       useInvertedBackground={true}
       products={[
         {
-          id: "p1",
-          name: "Lumina Glow Serum",
-          price: "$48",
-          imageSrc: "http://img.b2bpic.net/free-photo/high-angle-serum-container_23-2149249581.jpg",
-        },
+          id: "p1",          name: "Lumina Glow Serum",          price: "$48",          imageSrc: "http://img.b2bpic.net/free-photo/high-angle-serum-container_23-2149249581.jpg"},
         {
-          id: "p2",
-          name: "Velvet Moisture Balm",
-          price: "$32",
-          imageSrc: "http://img.b2bpic.net/free-photo/rustic-cosmetic-product-presentation_23-2151947843.jpg",
-        },
+          id: "p2",          name: "Velvet Moisture Balm",          price: "$32",          imageSrc: "http://img.b2bpic.net/free-photo/rustic-cosmetic-product-presentation_23-2151947843.jpg"},
         {
-          id: "p3",
-          name: "Midnight Rose Oil",
-          price: "$56",
-          imageSrc: "http://img.b2bpic.net/free-photo/blank-label-perfume-bottle-blank-business-card_53876-153476.jpg",
-        },
+          id: "p3",          name: "Midnight Rose Oil",          price: "$56",          imageSrc: "http://img.b2bpic.net/free-photo/blank-label-perfume-bottle-blank-business-card_53876-153476.jpg"},
         {
-          id: "p4",
-          name: "Hydration Mist",
-          price: "$28",
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-eucalyptus-with-beauty-products_23-2149440672.jpg",
-        },
+          id: "p4",          name: "Hydration Mist",          price: "$28",          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-eucalyptus-with-beauty-products_23-2149440672.jpg"},
         {
-          id: "p5",
-          name: "Professional Brush Set",
-          price: "$65",
-          imageSrc: "http://img.b2bpic.net/free-photo/set-cosmetic-paint-brush-makeup_1232-2061.jpg",
-        },
+          id: "p5",          name: "Professional Brush Set",          price: "$65",          imageSrc: "http://img.b2bpic.net/free-photo/set-cosmetic-paint-brush-makeup_1232-2061.jpg"},
         {
-          id: "p6",
-          name: "Radiance Face Oil",
-          price: "$42",
-          imageSrc: "http://img.b2bpic.net/free-photo/cosmetic-serum-bottle-hand-orange-background_185193-162127.jpg",
-        },
+          id: "p6",          name: "Radiance Face Oil",          price: "$42",          imageSrc: "http://img.b2bpic.net/free-photo/cosmetic-serum-bottle-hand-orange-background_185193-162127.jpg"},
       ]}
       title="Our Collection"
       description="Essential beauty staples designed to elevate your daily self-care ritual."
@@ -220,45 +151,15 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "t1",
-          title: "Transformative",
-          quote: "My skin has never felt better. The glow is real!",
-          name: "Elena R.",
-          role: "Beauty Enthusiast",
-          imageSrc: "http://img.b2bpic.net/free-photo/sincere-delighted-feminine-blond-girl-with-blue-eyes-nice-happy-smile-gazing-camera-giggling-having-fun-laughing-enjoying-evening-posing-satisfied-cheerful-tender-pose-white-wall_176420-35203.jpg",
-        },
+          id: "t1",          title: "Transformative",          quote: "My skin has never felt better. The glow is real!",          name: "Elena R.",          role: "Beauty Enthusiast",          imageSrc: "http://img.b2bpic.net/free-photo/sincere-delighted-feminine-blond-girl-with-blue-eyes-nice-happy-smile-gazing-camera-giggling-having-fun-laughing-enjoying-evening-posing-satisfied-cheerful-tender-pose-white-wall_176420-35203.jpg"},
         {
-          id: "t2",
-          title: "So Gentle",
-          quote: "Finally found products that don't irritate my sensitive skin.",
-          name: "Sarah K.",
-          role: "Skincare Expert",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-content-media-creator-blogger-sits-her-room-records-video-her-favourite-makeup_1258-254940.jpg",
-        },
+          id: "t2",          title: "So Gentle",          quote: "Finally found products that don't irritate my sensitive skin.",          name: "Sarah K.",          role: "Skincare Expert",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-content-media-creator-blogger-sits-her-room-records-video-her-favourite-makeup_1258-254940.jpg"},
         {
-          id: "t3",
-          title: "Essential",
-          quote: "The hydration mist is a life-saver during long travel days.",
-          name: "Mark D.",
-          role: "Frequent Traveler",
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-woman-holding-paint-brushes_23-2148276443.jpg",
-        },
+          id: "t3",          title: "Essential",          quote: "The hydration mist is a life-saver during long travel days.",          name: "Mark D.",          role: "Frequent Traveler",          imageSrc: "http://img.b2bpic.net/free-photo/front-view-woman-holding-paint-brushes_23-2148276443.jpg"},
         {
-          id: "t4",
-          title: "Luxurious",
-          quote: "Every item feels so premium and the results are stunning.",
-          name: "Chloe L.",
-          role: "Make-up Artist",
-          imageSrc: "http://img.b2bpic.net/free-photo/smiley-woman-posing-indoors_23-2148750546.jpg",
-        },
+          id: "t4",          title: "Luxurious",          quote: "Every item feels so premium and the results are stunning.",          name: "Chloe L.",          role: "Make-up Artist",          imageSrc: "http://img.b2bpic.net/free-photo/smiley-woman-posing-indoors_23-2148750546.jpg"},
         {
-          id: "t5",
-          title: "Best Quality",
-          quote: "I am so impressed with the quality and transparency of ingredients.",
-          name: "Jasmine T.",
-          role: "Wellness Blogger",
-          imageSrc: "http://img.b2bpic.net/free-photo/indoor-shot-happy-smiling-woman-keeps-hands-together_273609-44728.jpg",
-        },
+          id: "t5",          title: "Best Quality",          quote: "I am so impressed with the quality and transparency of ingredients.",          name: "Jasmine T.",          role: "Wellness Blogger",          imageSrc: "http://img.b2bpic.net/free-photo/indoor-shot-happy-smiling-woman-keeps-hands-together_273609-44728.jpg"},
       ]}
       title="Loved by You"
       description="See why thousands of beauty enthusiasts have made us part of their daily routine."
@@ -271,20 +172,11 @@ export default function LandingPage() {
       useInvertedBackground={true}
       faqs={[
         {
-          id: "f1",
-          title: "Are your products cruelty-free?",
-          content: "Yes, we are 100% cruelty-free and never test on animals.",
-        },
+          id: "f1",          title: "Are your products cruelty-free?",          content: "Yes, we are 100% cruelty-free and never test on animals."},
         {
-          id: "f2",
-          title: "How long does shipping take?",
-          content: "Orders typically process within 24 hours and arrive in 3-5 business days.",
-        },
+          id: "f2",          title: "How long does shipping take?",          content: "Orders typically process within 24 hours and arrive in 3-5 business days."},
         {
-          id: "f3",
-          title: "Do you offer international shipping?",
-          content: "Yes, we ship globally with various carrier options available at checkout.",
-        },
+          id: "f3",          title: "Do you offer international shipping?",          content: "Yes, we ship globally with various carrier options available at checkout."},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/shining-white-paint-strokes_23-2147746807.jpg"
       imageAlt="Product texture closeup"
@@ -299,14 +191,11 @@ export default function LandingPage() {
       <ContactText
       useInvertedBackground={false}
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       text="Ready to elevate your beauty ritual? Let's stay in touch for exclusive offers and skincare tips."
       buttons={[
         {
-          text: "Contact Us",
-          href: "mailto:hello@luminabeauty.com",
-        },
+          text: "Contact Us",          href: "mailto:hello@luminabeauty.com"},
       ]}
     />
   </div>
@@ -315,54 +204,33 @@ export default function LandingPage() {
       <FooterSimple
       columns={[
         {
-          title: "Company",
-          items: [
+          title: "Company",          items: [
             {
-              label: "About Us",
-              href: "#about",
-            },
+              label: "About Us",              href: "#about"},
             {
-              label: "Privacy Policy",
-              href: "#",
-            },
+              label: "Privacy Policy",              href: "#"},
             {
-              label: "Terms of Service",
-              href: "#",
-            },
+              label: "Terms of Service",              href: "#"},
           ],
         },
         {
-          title: "Shop",
-          items: [
+          title: "Shop",          items: [
             {
-              label: "All Products",
-              href: "#products",
-            },
+              label: "All Products",              href: "#products"},
             {
-              label: "Best Sellers",
-              href: "#",
-            },
+              label: "Best Sellers",              href: "#"},
             {
-              label: "New Arrivals",
-              href: "#",
-            },
+              label: "New Arrivals",              href: "#"},
           ],
         },
         {
-          title: "Connect",
-          items: [
+          title: "Connect",          items: [
             {
-              label: "Instagram",
-              href: "#",
-            },
+              label: "Instagram",              href: "#"},
             {
-              label: "Twitter",
-              href: "#",
-            },
+              label: "Twitter",              href: "#"},
             {
-              label: "Support",
-              href: "mailto:support@luminabeauty.com",
-            },
+              label: "Support",              href: "mailto:support@luminabeauty.com"},
           ],
         },
       ]}
